@@ -1,0 +1,37 @@
+{
+	"$schema": "https://raw.githubusercontent.com/untrustedmodders/plugify/refs/heads/main/schemas/plugin.schema.json",
+	"fileVersion": 1,
+	"version": "0.1.0",
+	"friendlyName": "JavaScript Sample Plugin",
+	"description": "An example of a JavaScript plugin. This can be used as a starting point when creating your own plugin.",
+	"createdBy": "untrustedmodders",
+	"createdByURL": "https://github.com/untrustedmodders/",
+	"docsURL": "https://github.com/untrustedmodders/plugify-plugin-v8-template",
+	"downloadURL": "",
+	"updateURL": "",
+	"entryPoint": "plugify-plugin-v8.ExamplePlugin",
+	"supportedPlatforms": [],
+	"languageModule": {
+		"name": "javascript"
+	},
+	"dependencies": [],
+	"exportedMethods": [
+		{
+			"name": "MakePrint",
+			"funcName": "makePrint",
+			"paramTypes": [
+				{
+					"type": "int32",
+					"name": "count"
+				},
+				{
+					"type": "string",
+					"name": "message"
+				}
+			],
+			"retType": {
+				"type": "void"
+			}
+		}
+	]
+}
