@@ -1,5 +1,5 @@
 import { Plugin } from 'plugify';
-// import { * as s2 } from ":s2sdk" // sdk is name of plugin to import from as synthetic module
+// import * as s2 from ":s2sdk" // sdk is name of plugin to import from as synthetic module
 
 export class ExamplePlugin extends Plugin {
     pluginStart() {
